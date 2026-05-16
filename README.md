@@ -1,3 +1,3 @@
 # Quiz-CBN
 
-eu amo goticas
+Nicolas Rei delas
