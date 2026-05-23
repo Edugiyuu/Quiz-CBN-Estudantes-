@@ -36,7 +36,13 @@ Esse quiz foi feito para o hackathon
 /project-root
 │
 ├── src/
+│    ├──index.html
+│    ├──css/
+│    │  ├─style.css
+│    ├──js
+│    │  ├──script.js
+│    ├──asset
+│    │  ├──(imagens, ícones, etc)
+│
 ├── docs/
-├── tests/
 ├── README.md
-└── package.json

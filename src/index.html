@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cyber Quiz</title>
+
+</head>
+
+<body>
+
+<div class="quiz-container">
+
+  <div class="top">
+
+    <div class="top-row">
+
+      <div class="logo">
+
+        <span id="emoji">🔐</span>
+
+        <div>
+          <h1>CYBER QUIZ</h1>
+          <p>Segurança Digital 🚀</p>
+        </div>
+
+      </div>
+
+      <div class="stats">
+
+        <div class="box">
+          🎯 <span id="question-number">1/5</span>
+        </div>
+
+        <div class="box score">
+          ⭐ <span id="score">0</span>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="progress">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+
+  </div>
+
+  <div class="content" id="quiz-content">
+
+    <div class="tag">
+      ✨ PERGUNTA <span id="tag-number">1</span>
+    </div>
+
+    <div class="question" id="question"></div>
+
+    <div class="answers" id="answers"></div>
+
+    <button class="next-btn hidden" id="next-btn">
+      PRÓXIMA PERGUNTA ⚡
+    </button>
+
+  </div>
+
+  <div class="result hidden" id="result">
+
+    <div class="trophy">🏆</div>
+
+    <h2>MISSÃO CONCLUÍDA!</h2>
+
+    <div class="result-score" id="final-score">
+      0/5
+    </div>
+
+    <div class="message" id="message"></div>
+
+    <button class="restart-btn" onclick="restartQuiz()">
+      🏅 JOGAR NOVAMENTE 🏅
+    </button>
+
+  </div>
+
+</div>
+
+<!-- SONS -->
+
+<audio id="correct-sound">
+  <source src="https://assets.mixkit.co/active_storage/sfx/2018/2018-preview.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="wrong-sound">
+  <source src="https://assets.mixkit.co/active_storage/sfx/2955/2955-preview.mp3" type="audio/mpeg">
+</audio>
