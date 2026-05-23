@@ -35,14 +35,25 @@ Esse quiz foi feito para o hackathon
 ```txt
 /project-root
 │
-├── src/
-│    ├──index.html
+├──src/
+│   ├──pages
+│      ├──index.html
+│      ├──quiz.html
+│      ├──resultados.html
+│      ├──sobre.html
+│     
 │    ├──css/
-│    │  ├─style.css
+│    │  ├─global.css
+│       ├──home.css
+│       ├──quiz.css
+│
 │    ├──js
-│    │  ├──script.js
+│    │  ├──main.js
+│       ├──quiz.js
+│       ├──resultados.js
 │    ├──asset
-│    │  ├──(imagens, ícones, etc)
+│    │  ├──images/
+│       ├──icons/
 │
 ├── docs/
 ├── README.md
