@@ -40,7 +40,8 @@ Esse quiz foi feito para o hackathon
 │      ├──index.html
 │      ├──quiz.html
 │      ├──resultados.html
-│      ├──sobre.html
+│      ├──Creditos.html
+│      ├──login.html
 │     
 │    ├──css/
 │    │  ├─global.css
