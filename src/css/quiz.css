@@ -166,3 +166,85 @@ body{
         font-size:26px;
     }
 }
+/* ==========================
+   RESPOSTA CORRETA
+========================== */
+
+.option.correct{
+    position:relative;
+    background:rgba(34,197,94,.20);
+    border:3px solid #22c55e;
+    box-shadow:0 0 20px rgba(34,197,94,.5);
+}
+
+.option.correct .letter{
+    background:linear-gradient(135deg,#22c55e,#16a34a);
+    border-color:#22c55e;
+}
+
+.option.correct::after{
+    content:"✔";
+    position:absolute;
+    right:20px;
+
+    width:45px;
+    height:45px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+    background:#22c55e;
+    color:white;
+
+    font-size:24px;
+    font-weight:bold;
+
+    box-shadow:0 0 15px rgba(34,197,94,.8);
+}
+
+/* ==========================
+   RESPOSTA ERRADA
+========================== */
+
+.option.wrong{
+    position:relative;
+    background:rgba(239,68,68,.20);
+    border:3px solid #ef4444;
+    box-shadow:0 0 20px rgba(239,68,68,.5);
+}
+
+.option.wrong .letter{
+    background:linear-gradient(135deg,#ef4444,#dc2626);
+    border-color:#ef4444;
+}
+
+.option.wrong::after{
+    content:"✖";
+    position:absolute;
+    right:20px;
+
+    width:45px;
+    height:45px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+    background:#ef4444;
+    color:white;
+
+    font-size:24px;
+    font-weight:bold;
+
+    box-shadow:0 0 15px rgba(239,68,68,.8);
+}
+
+/* Impede hover após responder */
+
+.option.correct:hover,
+.option.wrong:hover{
+    transform:none;
+}
