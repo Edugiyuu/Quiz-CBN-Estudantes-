@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:#050816;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+
+.container{
+    max-width:100%;
+    width:100%;
+   background:linear-gradient(135deg,#101b35,#23163f);
+    border:2px solid #00d9ff;
+    border-radius:25px;
+    padding:40px;
+    box-shadow:0 0 30px rgba(0,217,255,.25);
+}
+
+.icon{
+    font-size:70px;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+h1{
+    text-align:center;
+    font-size:3rem;
+    margin-bottom:10px;
+    background:linear-gradient(90deg,#00d9ff,#ff4fd8);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.subtitle{
+    text-align:center;
+    color:#7eefff;
+    margin-bottom:35px;
+    font-size:1.1rem;
+}
+
+.card{
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.1);
+    border-radius:18px;
+    padding:25px;
+    margin-bottom:20px;
+}
+
+.card h2{
+    color:#00d9ff;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#d6d6d6;
+    line-height:1.7;
+    margin-bottom:10px;
+}
+
+.card ul{
+    margin:15px 0 15px 25px;
+}
+
+.card li{
+    margin-bottom:10px;
+    color:#ffffff;
+}
+
+.highlight{
+    text-align:center;
+    font-size:1.2rem;
+    font-weight:bold;
+    color:#ff4fd8 !important;
+    margin-top:15px;
+}
+
+.developers{
+    text-align:center;
+    margin-top:30px;
+    padding:25px;
+    border-radius:18px;
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.1);
+}
+
+.developers h2{
+    color:#00d9ff;
+    margin-bottom:15px;
+}
+
+.dev-list{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin:20px 0;
+}
+
+.dev-list span{
+    padding:12px 20px;
+    border-radius:12px;
+    background:linear-gradient(90deg,#00d9ff,#ff4fd8);
+    font-weight:bold;
+}
+
+.quote{
+    margin-top:15px;
+    color:#bdbdbd;
+    font-style:italic;
+}
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.buttons button{
+    border:none;
+    padding:15px 30px;
+    border-radius:50px;
+    cursor:pointer;
+    color:white;
+    font-size:1rem;
+    font-weight:bold;
+    background:linear-gradient(90deg,#00d9ff,#ff4fd8);
+    transition:.3s;
+}
+
+.buttons button:hover{
+    transform:translateY(-3px);
+    box-shadow:0 0 20px rgba(255,79,216,.5);
+}

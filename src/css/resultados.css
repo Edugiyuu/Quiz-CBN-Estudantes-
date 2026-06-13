@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+
+    background:
+    linear-gradient(rgba(0,255,255,.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,255,255,.08) 1px, transparent 1px),
+    #050816;
+
+    background-size:40px 40px;
+}
+
+.result-container{
+    width:100%;
+    max-width:100%;
+    text-align:center;
+
+    padding:50px 30px;
+
+    border-radius:30px;
+
+    background:linear-gradient(135deg,#09152e,#23163f);
+    border:3px solid #00d4ff;
+
+    box-shadow:
+    0 0 25px rgba(0,212,255,.35),
+    0 0 60px rgba(255,0,255,.15);
+}
+
+.trophy{
+    font-size:90px;
+    margin-bottom:15px;
+
+    filter:
+    drop-shadow(0 0 15px gold)
+    drop-shadow(0 0 25px orange);
+}
+
+h1{
+    font-size:58px;
+    font-weight:800;
+
+    background:
+    linear-gradient(
+    90deg,
+    #56e8ff,
+    #b983ff,
+    #ff58b3);
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+    margin-bottom:20px;
+}
+
+.stars{
+    font-size:55px;
+    margin-bottom:20px;
+
+    text-shadow:
+    0 0 15px gold,
+    0 0 25px gold;
+}
+
+.score{
+    font-size:110px;
+    font-weight:800;
+    color:white;
+
+    text-shadow:
+    0 0 15px rgba(255,255,255,.3);
+
+    margin-bottom:10px;
+}
+
+.message{
+    font-size:28px;
+    font-weight:600;
+    color:white;
+
+    margin-bottom:30px;
+}
+
+.streak{
+    display:inline-block;
+
+    padding:15px 35px;
+
+    border-radius:50px;
+
+    font-weight:700;
+    color:white;
+
+    background:
+    linear-gradient(
+    90deg,
+    #ffcc00,
+    #ff7b00,
+    #ff4da6);
+
+    margin-bottom:35px;
+
+    box-shadow:
+    0 0 20px rgba(255,180,0,.4);
+}
+
+.btn-play,
+.btn-home{
+    width:100%;
+    max-width:420px;
+
+    padding:18px;
+
+    border:none;
+    border-radius:18px;
+
+    font-size:18px;
+    font-weight:700;
+
+    cursor:pointer;
+    transition:.3s;
+
+    display:block;
+    margin:15px auto;
+}
+
+.btn-play{
+    background:
+    linear-gradient(
+    90deg,
+    #49f5ff,
+    #ff63c5);
+
+    color:white;
+}
+
+.btn-home{
+    background:
+    transparent;
+
+    color:#00d4ff;
+
+    border:2px solid #00d4ff;
+}
+
+.btn-play:hover,
+.btn-home:hover{
+    transform:translateY(-3px) scale(1.02);
+}
+
+@media(max-width:768px){
+
+    h1{
+        font-size:42px;
+    }
+
+    .score{
+        font-size:80px;
+    }
+
+    .message{
+        font-size:20px;
+    }
+
+    .trophy{
+        font-size:70px;
+    }
+}
