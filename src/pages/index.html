@@ -1,95 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<link rel="stylesheet" href="css/style.css">
-<script src="java script/script.js" ></script>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cyber Quiz</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Quiz - Segurança Digital</title>
 
+    <link rel="stylesheet" href="index.css">
 </head>
-
 <body>
 
-<div class="quiz-container">
+    <div class="container">
 
-  <div class="top">
-<!--  -->
-    <div class="top-row">
+        <div class="logo">🔐</div>
 
-      <div class="logo">
+        <h1>CYBER QUIZ</h1>
+        <p class="subtitulo">Segurança Digital e Cidadania Online 🚀</p>
 
-        <span id="emoji">🔐</span>
+       
 
-        <div>
-          <h1>CYBER QUIZ</h1>
-          <p>Segurança Digital 🚀</p>
+        <div class="card">
+            <h2>Objetivos</h2>
+
+            <div class="objetivos">
+
+                <div class="item">
+                    <h3>🛡 Segurança</h3>
+                    <p>Aprender a proteger contas, senhas e dados pessoais.</p>
+                </div>
+
+                <div class="item">
+                    <h3>🌐 Internet Consciente</h3>
+                    <p>Promover o uso responsável e ético das tecnologias digitais.</p>
+                </div>
+
+                <div class="item">
+                    <h3>⚠ Prevenção</h3>
+                    <p>Reconhecer golpes, fraudes e ameaças virtuais.</p>
+                </div>
+
+                <div class="item">
+                    <h3>📚 Aprendizado</h3>
+                    <p>Desenvolver conhecimentos importantes para o dia a dia online.</p>
+                </div>
+
+            </div>
         </div>
 
-      </div>
-
-      <div class="stats">
-
-        <div class="box">
-          🎯 <span id="question-number">1/5</span>
-        </div>
-
-        <div class="box score">
-          ⭐ <span id="score">0</span>
-        </div>
-
-      </div>
+        <a href="#" class="btn">Começar Quiz</a>
 
     </div>
 
-    <div class="progress">
-      <div class="progress-bar" id="progress-bar"></div>
-    </div>
-
-  </div>
-
-  <div class="content" id="quiz-content">
-
-    <div class="tag">
-      ✨ PERGUNTA <span id="tag-number">1</span>
-    </div>
-
-    <div class="question" id="question"></div>
-
-    <div class="answers" id="answers"></div>
-
-    <button class="next-btn hidden" id="next-btn">
-      PRÓXIMA PERGUNTA ⚡
-    </button>
-
-  </div>
-
-  <div class="result hidden" id="result">
-
-    <div class="trophy">🏆</div>
-
-    <h2>MISSÃO CONCLUÍDA!</h2>
-
-    <div class="result-score" id="final-score">
-      0/5
-    </div>
-
-    <div class="message" id="message"></div>
-
-    <button class="restart-btn" onclick="restartQuiz()">
-      🏅 JOGAR NOVAMENTE 🏅
-    </button>
-
-  </div>
-
-</div>
-
-<!-- SONS -->
-
-<audio id="correct-sound">
-  <source src="https://assets.mixkit.co/active_storage/sfx/2018/2018-preview.mp3" type="audio/mpeg">
-</audio>
-
-<audio id="wrong-sound">
-  <source src="https://assets.mixkit.co/active_storage/sfx/2955/2955-preview.mp3" type="audio/mpeg">
-</audio>
+</body>
+</html>
