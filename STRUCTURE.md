@@ -9,10 +9,6 @@ Quiz interativo de segurança digital
 - [Introdução](#introdução)
 - [Objetivos](#objetivos)
 - [Estrutura](#estrutura)
-- [Tecnologias](#tecnologias)
-- [Instalação](#instalação)
-- [Uso](#uso)
-- [Contribuição](#contribuição)
 
 ---
 
@@ -35,25 +31,21 @@ Esse quiz foi feito para o hackathon
 ```txt
 /project-root
 │
-├──src/
-│   ├──pages
-│      ├──index.html
-│      ├──quiz.html
-│      ├──resultados.html
-│      ├──Creditos.html
-│      ├──login.html
-│     
+├──src/  
 │    ├──css/
-│    │  ├─global.css
-│       ├──home.css
-│       ├──quiz.css
-│
-│    ├──js
-│    │  ├──creditos.js
-│       ├──quiz.js
-│       ├──resultados.js
-│       ├──index.js
-│       ├──login.js
-│
+│    │  ├──credito.css
+│    │  ├──index.css
+│    │  ├──quiz.css
+│    │  ├──resultados.css
+│    │__________________
+│    ├──java script/
+│    │  ├──quiz.js
+│    │__________________
+│    ├──pages/
+│    │   ├──Creditos.html
+│    │   ├──index.html
+│    │   ├──quiz.html
+│    │   ├──resultados.html
+│    │___________________
 ├── docs/
 ├── README.md
