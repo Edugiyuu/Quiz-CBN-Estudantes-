@@ -175,11 +175,38 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         document.querySelector(".question-area").innerHTML = `
-            <div class="question-badge">🏆 QUIZ FINALIZADO</div>
-            <h2>Você acertou ${pontos} de ${perguntas.length} perguntas!</h2>
-            <p style="font-size:22px;margin-top:20px;">
-                ${mensagem}
-            </p>
+           <title>Resultado Final</title>
+    <link rel="stylesheet" href="../css/resultados.css">
+</head>
+<body>
+
+    <div class="result-container">
+
+        <div class="trophy">
+            🏆
+        </div>
+
+        <h1>MISSÃO CONCLUÍDA!</h1>
+
+        <div class="stars">
+            ⭐ ⭐ ⭐
+        </div>
+
+        <!-- Altere aqui a pontuação -->
+        <div class="score">
+            ${pontos}/10
+        </div>
+
+        <p class="message">
+            ${mensagem}
+        </p>
+
+        
+       <a href="../pages/creditos.html" class="btn-play">📖IR AOS CREDITOS</a>
+
+    </div>
+
+</body>
         `;
 
         progresso.style.width = "100%";

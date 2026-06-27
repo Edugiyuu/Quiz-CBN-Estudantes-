@@ -245,3 +245,7 @@ body{
 .option.wrong:hover{
     transform:none;
 }
+
+.msgClass{
+    color: #5fe3ff;
+}
