@@ -49,12 +49,11 @@ Esse quiz foi feito para o hackathon
 │       ├──quiz.css
 │
 │    ├──js
-│    │  ├──main.js
+│    │  ├──creditos.js
 │       ├──quiz.js
 │       ├──resultados.js
-│    ├──asset
-│    │  ├──images/
-│       ├──icons/
+│       ├──index.js
+│       ├──login.js
 │
 ├── docs/
 ├── README.md
