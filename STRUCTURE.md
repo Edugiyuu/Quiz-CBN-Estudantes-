@@ -31,6 +31,7 @@ Esse quiz foi feito para o hackathon
 ```txt
 /project-root
 │
+├──index.html
 ├──src/  
 │    ├──css/
 │    │  ├──credito.css
@@ -43,7 +44,6 @@ Esse quiz foi feito para o hackathon
 │    │__________________
 │    ├──pages/
 │    │   ├──Creditos.html
-│    │   ├──index.html
 │    │   ├──quiz.html
 │    │   ├──resultados.html
 │    │___________________
